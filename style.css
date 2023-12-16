@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600;700&family=Josefin+Sans:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700&family=Rubik:wght@400;500;600;700&family=Tilt+Neon&family=Ubuntu:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+}
+
+.stopwatch {
+    width: 550px;
+    height: 350px;
+    background-color: #1c1c1c;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 2.5rem;
+    box-shadow: rgba(0, 0, 0, 0.8) 0px 22px 70px 4px;
+}
+
+.time {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 2.5rem;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+}
+
+.stop, .play, .reset {
+    margin: 0 1.5rem;
+    cursor: pointer;
+}
+
+.stop {
+    color: red;
+    font-size: 3.8rem;
+}
+
+.reset {
+    color: red;
+    font-size: 3rem;
+}
+
+.play {
+    color: cornflowerblue;
+    font-size: 5.5rem;
+}

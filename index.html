@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch - CodeCraftedWeb</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css" integrity="sha512-HXXR0l2yMwHDrDyxJbrMD9eLvPe3z3qL3PPeozNTsiHJEENxx8DH2CxmV05iwG0dwoz5n4gQZQyYLUNt1Wdgfg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://kit.fontawesome.com/c6052d003b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="stopwatch">
+            <div class="time">
+                <h1 id="displayTime">00 : 00 : 00</h1>
+            </div>
+
+            <div class="buttons">
+                <i class="ri-stop-circle-fill stop" onclick="watchStop()"></i>
+                <i class="ri-play-circle-fill play" onclick="watchStart()"></i>
+                <i class="fa-solid fa-rotate-left reset" onclick="watchReset()"></i>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
